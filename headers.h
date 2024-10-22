@@ -8,4 +8,11 @@
 #include <stdbool.h>
 #include <string.h>
 
+typedef struct{
+    int user_id;
+    int file_id;
+    char operation[10];
+    int request_time;
+} Request;
+
 #endif
